@@ -1,9 +1,10 @@
+#task1
 def safe_place(n,k)
-    if(k>=n)
+  if(k>=n)
         p 'K cannot be greater than n'    
-    else 
+  else 
         p "the safe position is: #{k+1}" 
-    end
+  end
 end
 puts "Enter Persons: "
 n=gets.chomp
